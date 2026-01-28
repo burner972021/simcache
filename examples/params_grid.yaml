@@ -1,6 +1,0 @@
-params:
-  steps: [100, 200]
-  dt: [0.01, 0.02]
-  noise: [0.05, 0.1]
-seeds: [1, 2]
-tags: ["sweep"]
