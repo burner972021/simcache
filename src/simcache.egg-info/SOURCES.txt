@@ -1,0 +1,14 @@
+LICENCE
+README.md
+pyproject.toml
+src/simcache/__init__.py
+src/simcache/cli.py
+src/simcache/core.py
+src/simcache/iterations.py
+src/simcache/store.py
+src/simcache.egg-info/PKG-INFO
+src/simcache.egg-info/SOURCES.txt
+src/simcache.egg-info/dependency_links.txt
+src/simcache.egg-info/entry_points.txt
+src/simcache.egg-info/requires.txt
+src/simcache.egg-info/top_level.txt

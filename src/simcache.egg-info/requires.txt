@@ -1,0 +1,8 @@
+numpy
+PyYAML
+
+[hdf5]
+h5py
+
+[zarr]
+zarr

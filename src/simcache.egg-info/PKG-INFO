@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: simcache
+Version: 0.1.0
+Summary: Content-addressed simulation cache with reproducible plotting.
+Requires-Python: >=3.9
+License-File: LICENCE
+Requires-Dist: numpy
+Requires-Dist: PyYAML
+Provides-Extra: hdf5
+Requires-Dist: h5py; extra == "hdf5"
+Provides-Extra: zarr
+Requires-Dist: zarr; extra == "zarr"
+Dynamic: license-file
