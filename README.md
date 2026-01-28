@@ -3,7 +3,7 @@
 Lightweight caching and result-reproducible tool for scientific graph plotting. Runs are content-addressed by
 `code_version + params + seed + environment`, so time is saved in plot generation as results are only recomputed when inputs change.
 
-## v0.0 Installation guide
+## v0.1.0 Installation guide
 
 Clone the repo
 

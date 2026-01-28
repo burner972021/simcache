@@ -1,4 +1,4 @@
-LICENCE
+LICENSE
 README.md
 pyproject.toml
 src/simcache/__init__.py

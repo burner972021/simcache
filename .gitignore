@@ -1,4 +1,6 @@
 .simcache
 .simstash
 AGENTS.md
-__pycache__/
+__pycache__
+results
+examples
