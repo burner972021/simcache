@@ -3,7 +3,14 @@
 Lightweight caching and result-reproducible tool for scientific graph plotting. Runs are content-addressed by
 `code_version + params + seed + environment`, so time is saved in plot generation as results are only recomputed when inputs change.
 
-## v0.0 Quick Start
+## v0.0 Installation guide
+
+Clone the repo
+
+```bash
+git clone https://github.com/burner972021/simcache
+cd simcache
+```
 
 Install in editable mode:
 
@@ -37,7 +44,7 @@ plt.plot(data["t"], data["x"])
 plt.show()
 ```
 
-## Simulation Script Contract
+## Simulation script id-based calling
 
 Your simulation script must expose a `run(params, seed)` function that returns either:
 - a dictionary of numpy arrays, or
@@ -51,7 +58,7 @@ def run(params, seed):
     return {"t": t, "x": x}, {"units": {"t": "s", "x": "m"}}
 ```
 
-## Parameter Sweeps
+## Parameter iteration
 
 Define a grid in YAML/JSON with `params` and optional `seeds`:
 
